@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    margin: 0;
+    background: aliceblue;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+
+p, blockquote {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kast {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.pealkiri{
+    width: 200px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vahelehed{
+    width: 25px;
+    margin-top: 45%;
+}
+
+
+
+button {
+	background-color:aliceblue;
+	border: none;
+	outline: none;
+	color:#000000;
+	padding: 15px 22px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #CDD8E5;
+	color: white;
+}
+
+
+.peapilt {
+    width: 70%;
+}
+
+h1, .tekst {
+    position: relative;
+    z-index: 3;
+}
+
+.tekst {
+    font-size: 1.1em;
+}
+
+.mustkast {
+    width: 100%;
+    background: #1a1818;
+    color: white;
+    margin: 15% 0 0;
+    padding: 4em 0 2em;
+    transform: skewY(-1deg);
+}
+
+.mustkast ul {
+    transform: skewY(1deg);
+}
+.valgekast {
+    padding: 4em 0 2em;
+}
+
+.valgekast ul li:first-child {
+    margin-bottom: 2em;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-weight: bold;
+    color: #1a1818
+}
+
+h2 {
+    margin-top: 7%;
+}
+
+.footerkast {
+    width: 100%;
+    background: #1a1818;
+    color: white;
+    padding: 3em 0;
+    transform: skewY(1deg);
+}
+
+
+ul.aluminetekst {
+    margin: 0 auto;
+}
+ul.aluminetekst li {
+    display: inline-block;
+
+}
+
+ul.aluminetekst li {
+    color: white;
+    font-size: .8em;
+
+}
+
+u.aluminetekst li a {
+    color: white;
+    font-size: .8em;
+}
+
+@media only screen and (min-width: 650px) {
+    .peapilt {
+        width: 50%;
+    }
+    h1 {font-size: 3em;
+        margin: 0;
+    }
+
+    .tekst {
+        font-size: 1.4em;
+        margin-bottom: 12%;
+
+
+    }
+
+    .mustkast {
+        margin: 0;
+    }
+
+    .mustkast ul li:nth-child(3) {
+        width: 11%;
+        margin-top: -6px
+    }
+    .mustkast ul {
+        display: flex;
+        margin-top: -1em;
+        align-items: center;
+    }
+
+    .mustkast ul li {
+        margin-bottom: 0;
+    }
+
+    .mustkast ul li p {
+        padding: 0 .8em;
+    }
+    .valgekast ul {
+        display: flex;
+    }
+
+    nav ul {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 875px) {
+    .tekst {
+        margin-bottom: 15%;
+
+    }
+    .mustkast ul {
+        margin: 0 0 4% 0;
+    }
+    .valgekast ul {
+        margin: 4% 0 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .kast {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    .vahelehed {
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        color: black;
+        background-color: inherit;
+        text-align: right;
+        padding: 1em 2em;
+
+    }
+    nav ul li a:hover {
+        background-color: inherit;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .peapilt {
+        width: 40%;
+        margin: 5em auto 4em 15%;
+
+    }
+
+    .kast {
+        width: 70%;
+
+    }
+
+    .mustkast {
+        padding: 7em 0 2em;
+    }
+
+    .mustkast ul li p, blockquote {
+        font-size: 1.3em;
+    }
+    .valgekast {
+        padding: 6em 0 4em;
+
+    }
+
+    h2 {
+        margin-top: 4em;
+    }
+}
