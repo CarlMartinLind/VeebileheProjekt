@@ -25,6 +25,7 @@ ul {
 
 .pealkiri{
     width: 200px;
+	margin-left: -15em; 
 
 }
 
@@ -85,7 +86,7 @@ h1, .tekst {
 }
 
 .mustkast {
-    width: 100%;
+    width: 112%;
     background: #1a1818;
     color: white;
     margin: 15% 0 0;
@@ -119,32 +120,36 @@ h2 {
 }
 
 .footerkast {
-    width: 100%;
+    width: 123.5%;
     background: #1a1818;
+	bottom: 0;
     color: white;
-    padding: 3em 0;
-    transform: skewY(1deg);
+    padding: 2em 0;
+	margin-left: -13.5em;
+	margin-bottom: -15em;
+	
+	
+}
+
+#hinnakiriFooter {
+	width: 120%;
+	padding: 5em;
+	margin-left: -13em;
 }
 
 
-ul.aluminetekst {
-    margin: 0 auto;
-}
 ul.aluminetekst li {
     display: inline-block;
+	
 
 }
 
-ul.aluminetekst li {
+ul.aluminetekst li a {
     color: white;
-    font-size: .8em;
+	font-size: .8em;
 
 }
 
-u.aluminetekst li a {
-    color: white;
-    font-size: .8em;
-}
 
 @media only screen and (min-width: 650px) {
     .peapilt {
@@ -266,4 +271,72 @@ u.aluminetekst li a {
     h2 {
         margin-top: 4em;
     }
+}
+
+
+table.hinnatabel {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border: 0px solid #1C6EA4;
+ 
+  width: 120%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2em;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.hinnatabel td, table.hinnatabel th {
+  border: 0px solid #AAAAAA;
+  padding: 20px 5px;
+}
+table.hinnatabel tbody td {
+  font-size: 14px;
+}
+
+table.hinnatabel thead {
+  background: #1C6EA2;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.hinnatabel thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: aliceblue;
+  border-left: 0px solid #D0E4F5;
+}
+table.hinnatabel thead th:first-child {
+  border-left: none;
+}
+
+table.hinnatabel tfoot td {
+  font-size: 14px;
+}
+table.hinnatabel tfoot .links {
+  text-align: right;
+}
+table.hinnatabel tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+tr:hover {
+	background-color: white;
+}
+
+td:hover {
+	background-color: white;
+}
+
+#lisainfoList {
+	font-size:18px;
+	list-style-type: disc;
+	list-style-position: inside;
+	text-align: center;
+	margin-bottom: -3.5em;
 }
