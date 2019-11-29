@@ -304,6 +304,34 @@ ul.aluminetekst li a {
 	}
 
 }
+
+@media only screen and (min-width: 1680px) {
+	.footerkast {
+    width: 126.7%;
+    background: #1a1818;
+	bottom: 0;
+    color: white;
+    padding: 2em 0;
+	margin-left: -13.5em;
+	margin-bottom: -15em;
+	}
+	
+	#hinnakiriFooter {
+	width: 150%;
+	padding: 5em;
+	margin-left: -13em;
+	}
+	
+	.mustkast {
+    width: 113.5%;
+    background: #1a1818;
+    color: white;
+    margin: 15% 0 0;
+    padding: 4em 0 2em;
+    transform: skewY(-1deg);
+	}
+
+}
 	
 
 table.hinnatabel {
