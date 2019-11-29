@@ -293,6 +293,15 @@ ul.aluminetekst li a {
 	padding: 5em;
 	margin-left: -13em;
 	}
+	
+	.mustkast {
+    width: 113.5%;
+    background: #1a1818;
+    color: white;
+    margin: 15% 0 0;
+    padding: 4em 0 2em;
+    transform: skewY(-1deg);
+	}
 
 }
 	
@@ -427,4 +436,68 @@ img {vertical-align: middle;}
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+#kontakt {
+    margin: 0;
+    background: aliceblue;
+    font-family: 'Montserrat' , 'sans-serif';
+	text-align: center;
+	
+}
+
+#olemeAvatud {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#lahtiolek {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#telefon {
+	font-size: 19px;
+}
+
+#number {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#aadress {
+	font-size: 17px;
+}
+
+#asukoht {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#e-post {
+	font-size: 17px;
+}
+
+#email {
+	font-weight: bold;
+}
+
+hr {
+	width: 33%;
+	height:2px;
+}
+
+#googlemaps {
+	border=0px;
+    allowfullscreen=""
+	
+}
+
+#kontaktFooter {
+	margin-left: -5em;
+}
+
+#galeriiFooter {
+	margin-left:-2em;
+	padding: 2em;
 }
