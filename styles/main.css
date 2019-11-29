@@ -86,7 +86,7 @@ h1, .tekst {
 }
 
 .mustkast {
-    width: 112%;
+    width: 100%;
     background: #1a1818;
     color: white;
     margin: 15% 0 0;
@@ -120,7 +120,7 @@ h2 {
 }
 
 .footerkast {
-    width: 123.5%;
+    width: 100%;
     background: #1a1818;
 	bottom: 0;
     color: white;
@@ -132,7 +132,7 @@ h2 {
 }
 
 #hinnakiriFooter {
-	width: 120%;
+	width: 100%;
 	padding: 5em;
 	margin-left: -13em;
 }
@@ -273,6 +273,25 @@ ul.aluminetekst li a {
     }
 }
 
+@media only screen and (min-width: 1920px) {
+	.footerkast {
+    width: 125%;
+    background: #1a1818;
+	bottom: 0;
+    color: white;
+    padding: 2em 0;
+	margin-left: -13.5em;
+	margin-bottom: -15em;
+	}
+	
+	#hinnakiriFooter {
+	width: 150%;
+	padding: 5em;
+	margin-left: -13em;
+	}
+
+}
+	
 
 table.hinnatabel {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
