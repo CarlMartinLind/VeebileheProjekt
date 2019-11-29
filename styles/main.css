@@ -131,6 +131,7 @@ h2 {
     padding: 2em 0;
 	margin-left: 0;
 	margin-bottom: 0;
+	text-align: center;
 	
 	
 }
@@ -139,6 +140,7 @@ h2 {
 	width: 100%;
 	padding: 5em;
 	margin-left: -13em;
+	text-align: center;
 }
 
 
@@ -286,12 +288,14 @@ ul.aluminetekst li a {
     padding: 2em 0;
 	margin-left: -13.5em;
 	margin-bottom: -15em;
+	text-align:center;
 	}
 	
 	#hinnakiriFooter {
 	width: 150%;
 	padding: 5em;
 	margin-left: -13em;
+	text-align:center;
 	}
 	
 	.mustkast {
@@ -314,12 +318,14 @@ ul.aluminetekst li a {
     padding: 2em 0;
 	margin-left: -13.5em;
 	margin-bottom: -15em;
+	text-align:center;
 	}
 	
 	#hinnakiriFooter {
 	width: 150%;
 	padding: 5em;
-	margin-left: -13em;
+	margin-left: -22em;
+	text-align:center;
 	}
 	
 	.mustkast {
@@ -523,9 +529,11 @@ hr {
 
 #kontaktFooter {
 	margin-left: -5em;
+	text-align:center;
 }
 
 #galeriiFooter {
-	margin-left:-2em;
+	margin-left:-6em;
 	padding: 2em;
+	text-align:center;
 }
