@@ -49,7 +49,7 @@ button {
 	text-align: right;
 	float: right;
 	text-decoration: none;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', 'sans-serif';
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 12px;
@@ -132,17 +132,43 @@ h2 {
 	margin-left: 0;
 	margin-bottom: 0;
 	text-align: center;
-	
-	
+
 }
 
-#hinnakiriFooter {
-	width: 100%;
-	padding: 5em;
-	margin-left: -13em;
-	text-align: center;
+.galeriikast {
+    width: 100%;
+    background: #1a1818;
+    bottom: 0;
+    color: white;
+    padding: 2em 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
 
+.hinnakirikast {
+    width: 100%;
+    background: #1a1818;
+    bottom: 0;
+    color: white;
+    padding: 2em 0;
+    margin-top: 150px;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.kontaktkast {
+    width: 100%;
+    background: #1a1818;
+    bottom: 0;
+    color: white;
+    padding: 2em 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+}
 
 ul.aluminetekst li {
     display: inline-block;
@@ -290,13 +316,7 @@ ul.aluminetekst li a {
 	margin-bottom: -15em;
 	text-align:center;
 	}
-	
-	#hinnakiriFooter {
-	width: 100%;
-	padding: 5em;
-	margin-left: 0em;
-	text-align:center;
-	}
+
 	
 	.mustkast {
     width: 113.5%;
@@ -321,13 +341,7 @@ ul.aluminetekst li a {
 	text-align:center;
 	}
 	
-	#hinnakiriFooter {
-	width: 150%;
-	padding: 5em;
-	margin-left: -22em;
-	text-align:center;
-	}
-	
+
 	.mustkast {
     width: 113.5%;
     background: #1a1818;
@@ -352,8 +366,8 @@ table.hinnatabel {
   border-collapse: collapse;
 }
 table.hinnatabel td, table.hinnatabel th {
-  border: 0px solid #AAAAAA;
-  padding: 20px 5px;
+  border: 0 solid #AAAAAA;
+  padding: 1em 4em 0 0;
 }
 table.hinnatabel tbody td {
   font-size: 14px;
@@ -405,6 +419,7 @@ td:hover {
 	list-style-position: inside;
 	text-align: center;
 	margin-bottom: -3.5em;
+    margin-top: 50px;
 }
 
 * {box-sizing: border-box;}
@@ -443,7 +458,7 @@ img {vertical-align: middle;}
 .dot {
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 2em 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -521,17 +536,6 @@ hr {
 	height:2px;
 }
 
-
-#kontaktFooter {
-	margin-left: -5em;
-	text-align:center;
-}
-
-#galeriiFooter {
-	margin-left:-6em;
-	padding: 2em;
-	text-align:center;
-}
 
 #indexAvaleht {
 	display: inline;
